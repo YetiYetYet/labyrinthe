@@ -1,0 +1,1 @@
+reset && gcc -g header.h SDL_Evenement.c victoire.c debut.c placerLabyrinthe.c fonction_Utile.c musique.c mouvement.c vision.c initialisation.c -w -o Labyrinthe.x main.c `sdl2-config --cflags --libs` -lSDL2_image -lSDL2_mixer
